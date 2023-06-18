@@ -1,0 +1,31 @@
+.card{
+    width: 20%;
+    font-size:medium;
+    padding: 0.4rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border:1px solid rgb(247, 196, 133); */
+    background-color: rgb(250, 232, 211);
+    box-shadow: -2px 2px 2px 2px rgb(251, 214, 169);
+}
+.cardItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid red; */
+    width: 100%;
+    margin: 0.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+    text-align: center;
+}
+#title{
+    font-weight: 800;
+}
+/* #img{
+    max-width:150px;
+    max-height:150px;
+} */

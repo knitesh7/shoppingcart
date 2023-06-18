@@ -1,0 +1,19 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(252, 235, 214);
+    width: 100%;
+    min-height: 97vh;
+    margin:0px;
+    padding:0px;
+    flex-wrap: wrap;
+}
+
+div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}

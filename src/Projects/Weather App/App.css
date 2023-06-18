@@ -1,0 +1,59 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(252, 235, 214);
+    width: 100%;
+    min-height: 97vh;
+    margin:0px;
+    padding:0px;
+    flex-wrap: wrap;
+}
+
+div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+button{
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+
+input{
+    padding: 0.5rem;
+    border-radius: 4%;
+    width: 40%;
+}
+
+.card{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card div{
+    padding: 0.4rem;
+    margin:0.5rem;
+}
+
+.searchDiv{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.searchBar{
+    justify-content: flex-end;
+    margin-right: 2rem;
+    width: 60%;
+}
+.btn{
+    justify-content: flex-start;
+    width: 40%;
+}
+
+
+

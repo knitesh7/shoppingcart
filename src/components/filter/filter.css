@@ -1,0 +1,63 @@
+.filterContainer{
+    /* position: fixed; */
+    /* top:20vh; */
+    /* left:0vw;
+    bottom: 0; */
+
+    /* margin-top:3vh; */
+    width:20%;
+    min-width: 20%;
+    height: 82vh;
+    max-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    background-color: rgb(244, 211, 179);
+    box-shadow: 2px 2px 2px 2px rgb(235, 182, 118);
+    /* background-color: rgb(251, 242, 160);
+    box-shadow: 2px 2px 2px 2px rgb(235, 182, 118); */
+
+}
+.filterDetails{
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 80%;
+    font-size: 1.2rem;
+    color:beige;
+    background-color: blueviolet;
+}
+
+@media  (max-width: 681px) {
+    /* CSS rules for tablet screens */
+    .filterContainer{
+        /* position: fixed; */
+        /* top:20vh; */
+        /* left:0vw;
+        bottom: 0; */
+    
+        /* margin-top:3vh; */
+        /* width:40%; */
+        min-width: 215px;
+        height: 82vh;
+        max-height: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+        background-color: rgb(244, 211, 179);
+        box-shadow: 2px 2px 2px 2px rgb(235, 182, 118);
+        /* background-color: rgb(251, 242, 160);
+        box-shadow: 2px 2px 2px 2px rgb(235, 182, 118); */
+    
+    }
+ }

@@ -1,0 +1,27 @@
+.App{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin:2rem;
+}
+
+.counterdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterdiv button{
+    font-size: larger;
+    margin:1px;
+}

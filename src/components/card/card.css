@@ -1,0 +1,56 @@
+.card{
+    min-width: 200px;
+    /* flex-basis: 25vw; */
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 192, 136);
+    flex-wrap: wrap;
+    margin:1rem 0.5rem;
+    padding:0rem;
+    height: 400px;
+    max-height: 400px;
+    box-shadow: 2px 2px 2px 2px rgb(246, 174, 85);
+    align-content: flex-start;
+    border-radius: 10%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.wrapper{
+    display: block;
+    
+}
+
+.cardDetails{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    margin-bottom: 0.9rem;
+}
+.thumbDiv{
+    height:225px;
+    padding: 0px;
+    margin-top: 0;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    border-radius: 10%;
+}
+
+.add2cartBtn{
+    font-size: 1.1rem;
+    border-radius: 10%;
+    background-color: rgb(238, 52, 89);
+    padding: 0.2rem 0rem;
+    min-width:30%;
+    max-height: 2rem;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(255, 168, 62);
+}

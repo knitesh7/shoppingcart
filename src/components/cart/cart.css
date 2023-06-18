@@ -1,0 +1,136 @@
+.cartPage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(202, 230, 238);
+
+}
+.cart{
+    height: 80%;
+    width: 100%;
+    display: flex;
+
+}
+
+.itemsContainer{
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 1px solid rgb(188, 25, 25);
+    overflow: auto;
+    justify-content: center;
+    
+
+}
+.subtotal{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.totalComponents{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItemBox{
+    margin:1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(172, 251, 172);
+    border-radius: 0%;
+    border: 2px solid black;
+    width: 100%;
+    min-height: 40vh;
+    height: auto;
+}
+
+.cartItemComponets{
+    border-right:2px solid rgb(146, 240, 146);
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+    min-width: 100px;
+    
+}
+
+.cartItemDelete{
+    max-width: 10vw;
+    border-right:none;
+}
+.cartItemPrice{
+    max-width: 10vw;
+}
+
+
+
+.quantityDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.quantityDiv input{
+    width: 40%;
+    margin:2%;
+    height: 1.6rem;
+}
+.quantityDiv button{
+    width: 40%;
+    margin:2%;
+    font-size: 1.2rem;
+}
+.cartItemDelete button{
+
+    margin:2%;
+    font-size: 1.2rem;
+    background-color: tomato;
+}
+
+@media screen and (max-width:500px) {
+    *{
+        font-size: small;
+    }
+    .cartItemBox{
+    margin:1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(172, 251, 172);
+    border-radius: 0%;
+    border: 2px solid rgb(224, 15, 15);
+    width: 90%;
+    flex-wrap: wrap;
+    height: auto;
+}
+.cartItemComponets{
+    border-right:0px ;
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    padding: 1px;
+}
+.subtotal{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right:1rem ;
+}
+.itemsContainer{
+    border-right: 0px;
+}
+}

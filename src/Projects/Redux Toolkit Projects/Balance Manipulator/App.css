@@ -1,0 +1,50 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(252, 235, 214);
+    width: 100%;
+    min-height: 97vh;
+    margin:0px;
+    padding:0px;
+    flex-wrap: wrap;
+}
+
+div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+input{
+    width: 10%;
+    height: 2rem;
+    margin-left: 2%;
+    border-radius: 4%;
+}
+
+.btnsDiv{
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.btnsDiv button{
+    min-width: 20%;
+    height: 1rem;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    background-color: rgb(158, 240, 158);
+    color: rgb(30, 28, 28);
+    /* color: rgb(21, 18, 18); */
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2rem;
+}
+
+#dec{
+    background-color: rgb(248, 155, 138);
+}

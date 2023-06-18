@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.reset{
+    padding: 5px;
+    margin:3px;
+    font-size: larger;
+}
+#board{
+    /* border: 2px solid black; */
+    width: 450px;
+    margin: 10px 0px 0px 10px;
+}
+.row{
+    display: flex;
+}
+.square{
+    height: 150px;
+    border: 1px solid rgb(71, 66, 221);
+    flex-grow: 1;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 227, 245);
+    font-size: 2rem;
+}
+
+.result{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-variant: small-caps;
+}

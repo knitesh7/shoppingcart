@@ -1,0 +1,102 @@
+.mainHeader {
+  /* position: fixed;
+    top:0vh;
+    left:0vw; */
+  /* bottom: 0px; */
+  /* width: 100%; */
+  max-width: 100%;
+  max-height: 20vh;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: dodgerblue;
+  color: rgb(230, 242, 255);
+
+}
+
+.headingLogo {
+  text-shadow: 2px 2px #181717;
+}
+
+.headerParts {
+  flex-grow: 1;
+}
+
+.inputDiv {
+  flex-grow: 2;
+  /* border: 2px solid rgb(64, 95, 2); */
+}
+
+input {
+  width: 70%;
+  padding: 0.5rem;
+  border-radius: 4%;
+  font-size: large;
+}
+
+.parent {
+  position: relative;
+  display: inline-block;
+  left: 10vw;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  min-width: 10vw;
+  max-width: 20vw;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  /* text-indent: ; */
+  background-color: bisque;
+  border-radius: 10%;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.parent:hover .dropdown {
+  display: block;
+}
+
+@media (max-width: 681px) {
+  .mainHeader {
+    /* position: fixed;
+      top:0vh;
+      left:0vw; */
+    /* bottom: 0px; */
+    /* width: 100%; */
+    max-width: 100%;
+    /* max-height: 20vh; */
+    min-height: 40vh;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: dodgerblue;
+    color: rgb(230, 242, 255);
+    text-align: center;
+
+
+  }
+
+  .mainHeader .headingLogo {
+    font-size: 1rem;
+  }
+
+  input {
+    width: 60%;
+    padding: 0.2rem;
+    border-radius: 1%;
+    font-size: medium;
+  }
+}
